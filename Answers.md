@@ -36,4 +36,4 @@ function retrieveFeelingQuote(category) {
 ```
 
 Input = Categories of quotes
-Function = Grabs the API and converts it into a Json file. If it successfully fetches the item, it creates an object that has the item's author, quote, and category. It puts this quote into a history and then pushes the quote into a temporary
+Function = Grabs the API and converts it into a Json file. If it successfully fetches the item, it creates an object that has the item's author, quote, and category. It puts this quote into a history and then appends it to the temporary list. After checking for the current quote, it creates a card based off the quote.
